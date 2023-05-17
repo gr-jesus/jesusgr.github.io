@@ -1,0 +1,111 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #333333;
+  margin-top: 20px;
+}
+
+p {
+  color: #666666;
+  text-align: justify;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  padding: 5px 10px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.profile-image img {
+  width: 150px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* La altura se ajustará proporcionalmente */
+  border-radius: 50%;
+  justify-content: center;
+  flex: 30%;
+  margin-right: 20px;
+}
+
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cover-container h2 {
+  text-align: center;
+}
+
+.cover-container ul {
+  color: #666666;
+  text-align: justify;
+}
+
+.twitter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+  height: 100%; /* Ajusta la altura según tus necesidades */
+}
+
+.bio {
+  flex: 70%;
+}
+
+.footer {
+  background-color: #f1f1f1; /* Color de fondo del pie de página */
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+}
+
+
+
+
